@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Analyse_Nortwind_produits_sousperformants\Images\Logo_Northwind.png" alt="Logo" width="200">
+  <img src="Analyse_Nortwind_produits_sousperformants/Images/Logo_Northwind.png" alt="Logo" width="200">
 </p>
 
 # 📈 Analyse de la performance des produits Northwind 🛒
@@ -29,9 +29,9 @@ Les principaux objectifs de cette analyse sont :
 
 ## 🟡 Données utilisées
 
-**Période analysée** : juillet 2013 à mai 2015
-**Nombre de produits** : 77 dont 8 inactifs
-**Nombre de commandes** : 830
+**Période analysée** : juillet 2013 à mai 2015  
+**Nombre de produits** : 77 dont 8 inactifs  
+**Nombre de commandes** : 830  
 
 Les données utilisées concernent :
 
@@ -44,14 +44,14 @@ Les données utilisées concernent :
 
 
 ## 🔵 Sources de données
-Les données utilisées dans ce projet proviennent du site : [Mayven Analytics](https://mavenanalytics.io/).
+Les données utilisées dans ce projet proviennent du site : [Mayven Analytics](https://mavenanalytics.io/)  
 Lien du dataset : https://mavenanalytics.io/data-playground/northwind-traders
 
 
 
 ## 🟣 Méthodologie
 
-1. **Préparation et modélisation des données** 
+**1. Préparation et modélisation des données** 
 
 - Création d'un diagramme ERD (Entity Relationship Diagram) pour représenter les relations entre les tables clés (Product, Customers, Employees, etc.).
 - Génération automatique de la base dans PostgreSQL à partir de ce modèle conceptuel.
@@ -60,14 +60,14 @@ Lien du dataset : https://mavenanalytics.io/data-playground/northwind-traders
  - Simplifacation des requêtes et réduction des jointures inutiles.
 - Vérification des doublons et des produits actifs/inactifs.
 
-2. **Analyse exploratoire**
+**2. Analyse exploratoire**
 
 - **Construction de KPIs** : Nombre total de clients / produits / commandes / employés, remise moyenne.
 - **Agrégations** : commandes par pays / client / employé, produits par catégorie.
 - **Répartition** : prix, quantités vendues et chiffre d'affaires par produit.
 - **Évolution commandes** : Nombre de commandes par mois et par an.
 
-3. **Analyse avancée**
+**3. Analyse avancée**
 
 - Identification des produits sous-performants en termes de quantité vendue et chiffre d'affaires (10 % des produits les plus faibles).
 - Segmentation des produits selon leur performance: 

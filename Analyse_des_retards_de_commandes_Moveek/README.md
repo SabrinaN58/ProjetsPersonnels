@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Analyse_Moveek_retard_des_commandes\Images\Moveek_logo.png" alt="Logo" width="200">
+  <img src="Analyse_Moveek_retard_des_commandes/Images/Moveek_logo.png" alt="Logo" width="200">
 </p>
 
 # 📦 Analyse des retards de livraison des commandes Moveek
@@ -28,7 +28,7 @@ Les principaux objectifs de cette analyse sont :
 
 ## 🟡 Données utilisées
 
-**Période analysée** : Janvier 2015 au 31 janvier 2018
+**Période analysée** : Janvier 2015 au 31 janvier 2018  
 **Nombre de commandes** : 65 257
 
 Données utilisées concernent :
@@ -42,21 +42,21 @@ Données utilisées concernent :
 
 ## 🔵 Sources de données
 
-Les données utilisées dans ce projet proviennent du site : [Kaggle](https://www.kaggle.com/)
+Les données utilisées dans ce projet proviennent du site : [Kaggle](https://www.kaggle.com/)  
 Lien du dataset : https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis/data
 
 
 
 ## 🟣 Méthodologie
 
-1. **Préparation des données** :
+**1. Préparation des données** :
 
 - La vérification des valeurs manquantes et dupliquées.
 - L’harmonisation des noms de variables.
 - Correction des incohérences dans les données (variable "benefit_per_order").
 - La création de variables supplémentaires pertinentes pour l’analyse (délais de traitement, écart de livraison, etc.).
 
-2. **Analyse exploratoire**
+**2. **Analyse exploratoire**
 
 - Répartition des commandes par statut de livraison.
 - Impact des différentes variables (type de produit, client..).
@@ -66,22 +66,27 @@ Lien du dataset : https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supp
 
 ## 🟠 Quelques Résultats illustrés
 
-![Évolution des commandes et des retards] (Analyse_Moveek_retard_des_commandes\Images\Évolution des commandes totales et retardées.png)
+![Évolution des commandes et des retards](Analyse_Moveek_retard_des_commandes/Images/Évolution des commandes totales et retardées.png)
+
 Le nombre de commandes est assez stable avec un léger pic à partir de fin 2017. L'évolution des retards est proportionnelle au nombre de commandes reçues.
 
-![Répartition des commandes par statut de livraison] (Analyse_Moveek_retard_des_commandes\Images\commandes par statut de livraison.png)
-Plus de ** 55 % des commandes sont livrées en retard**, représentant une problématique majeure que Moveek doit solutionner.
+![Répartition des commandes par statut de livraison](Analyse_Moveek_retard_des_commandes/Images/commandes par statut de livraison.png)
 
-![Proportion des commandes selon le nombre d'articles commandés] (Analyse_Moveek_retard_des_commandes\Images\Nombre d'articles commandés.png)
-Les commandes unitaires sont majoritairement impactées par les retards, représentant plus de 20 % des commandes retardées.
+Plus de 55 % des commandes sont livrées en retard, représentant une problématique majeure que Moveek doit solutionner.
+
+![Proportion des commandes selon le nombre d'articles commandés](Analyse_Moveek_retard_des_commandes/Images/Nombre d'articles commandés.png)
+
+Les commandes unitaires sont majoritairement impactées par les retards, représentant plus de 20 % des commandes retardées.  
 Les commandes supérieures à 1 article, moins nombreuses, sont beaucoup moins affectées. Cela suggère que la taille des commandes n'est pas un facteur déterminant des retards, tandis que la fréquence des commandes d'une certaine quantité semble représenter une des principales causes des retards
 
-![Top 5 des destination des commandes] (Analyse_Moveek_retard_des_commandes\Images\Top 5 des pays de livraison.png)
-Les États-unis sont la principale destination des commandes totales et retardées, suivi par la France, le Mexique, l'Australie et l'Allemagne.
+![Top 5 des destination des commandes](Analyse_Moveek_retard_des_commandes/Images/Top 5 des pays de livraison.png)
+
+Les États-unis sont la principale destination des commandes totales et retardées, suivi par la France, le Mexique, l'Australie et l'Allemagne.  
 La distance ne semble pas représenter un facteur de retard (Points de vente situés aux US), cela suggère de nouveau une possible relation entre le volume de commande et la fréquence des retards.
 
-![Proportion des commandes par type de client] (Analyse_Moveek_retard_des_commandes\Images\Commandes selon type client.png)
-Les Consumer (Particuliers) représentent la clientèle majoritaire de Moveek (+ 50 % des commandes réalisées).
+![Proportion des commandes par type de client](Analyse_Moveek_retard_des_commandes/Images/Commandes selon type client.png)
+
+Les Consumer (Particuliers) représentent la clientèle majoritaire de Moveek (+ 50 % des commandes réalisées).  
 Cette clientèle est également la plus touchée par les retards de livraison (+ 50 % de commandes retardées). Ce qui suggère également une relation existante entre le volume de commande et les retards de livraison.
 
 Pour conclure, les retards semblent davantage liés au volume de commandes passées qu'à la taille, la distance ou le type de client.
