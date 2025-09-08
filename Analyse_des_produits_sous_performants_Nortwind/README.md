@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Analyse_Nortwind_produits_sousperformants/Images/Logo_Northwind.png" alt="Logo" width="200">
+  <img src="./Images/Logo_Northwind.png" alt="Logo" width="200">
 </p>
 
 # 📈 Analyse de la performance des produits Northwind 🛒
@@ -44,7 +44,7 @@ Les données utilisées concernent :
 
 
 ## 🔵 Sources de données
-Les données utilisées dans ce projet proviennent du site : [Mayven Analytics](https://mavenanalytics.io/)  
+Les données utilisées dans ce projet proviennent du site : [Mayven Analytics](https://mavenanalytics.io/)    
 Lien du dataset : https://mavenanalytics.io/data-playground/northwind-traders
 
 

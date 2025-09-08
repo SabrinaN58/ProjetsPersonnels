@@ -15,8 +15,8 @@ Aujourd'hui, la compagnie souhaite renforcer et développer ce programme. Mais a
 
 Pour cette étude la base client a été segmentée en deux catégories d’activité :
 
-- Clients engagés : ayant effectués plus de 20 vols,
-- Désengagés : inscrits mais ayant effectués moins de 20 vols
+- **Clients engagés** : ayant effectués plus de 20 vols,
+- **Désengagés** : inscrits mais ayant effectués moins de 20 vols
 
 Cette analyse permettra à la compagnie d'idenfier les facteurs qui différencient ces deux groupes, afin de repérer les clients à fort potentiel et d'orienter plus efficacement les actions de développement et de fidélisation
 
@@ -54,7 +54,7 @@ La deuxième table contient des informations sur l’activité des clients regro
 
 ## 🔵 Sources de données
 
-Les données utilisées dans ce projet proviennent du site : [Mayven Analytics](https://mavenanalytics.io/)
+Les données utilisées dans ce projet proviennent du site : [Mayven Analytics](https://mavenanalytics.io/)  
 Lien du dataset : https://mavenanalytics.io/data-playground/airline-loyalty-program
 
 
@@ -84,7 +84,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/airline-loyalty-prog
 
 **1. Répartition des statuts d'engagement**
 
-(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images\Analyse exploratoire/Répartition des clients par statut.png)
+(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Analyse exploratoire/Répartition des clients par statut.png)
 
 La majorité des clients (82 %) ont effectué plus de 20 vols sur la période étudiée, tandis qu'une minorité est désengagés avec moins de 20 vols
 
