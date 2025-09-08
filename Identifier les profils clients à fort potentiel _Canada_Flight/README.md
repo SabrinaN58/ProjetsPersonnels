@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Logo_canada_flight.png" alt="Logo" width="200">
+  <img src="./Images/Logo_canada_flight.png" alt="Logo" width="200">
 </p>
 
 # 💎 Identifier les profils clients à fort potentiel : analyse statistique du programme de fidélité de Canada Flight
@@ -84,27 +84,27 @@ Lien du dataset : https://mavenanalytics.io/data-playground/airline-loyalty-prog
 
 **1. Répartition des statuts d'engagement**
 
-(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Analyse exploratoire/Répartition des clients par statut.png)
+![Répartition des statuts d'engagement](./Images/Analyse%20exploratoire/Répartition%20des%20clients%20par%20statut.png)
 
 La majorité des clients (82 %) ont effectué plus de 20 vols sur la période étudiée, tandis qu'une minorité est désengagés avec moins de 20 vols
 
 **2. Analyse des facteurs sociodémographiques**
 
-(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Analyse_ciblée/Répartition des statuts par genre.png)
+![Répartition des statuts par genre](./Images/Analyse_ciblée/Répartition%20des%20statuts%20par%20genre.png)
 
 Les variables genre, niveau d'étude, statut marital et province n'ont pas d'influence significative sur le statut d'engagement des clients. *(Tests Chi² : p-valeur > 0.05)*.
 
 **3. Comparaison de la ditribution des salaires et la valeur vie (CLV)**
 
-(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Analyse_ciblée/Distribution des salaires par statut (boxplot).png)
-(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Analyse_ciblée/Distribution de la CLV (boxplots).png)
+![Distribution des salaires](./Images/Analyse_ciblée/Distribution%20des%20salaires%20par%20statut%20(boxplot).png)
+![Distribution de la CLV](./Images/Analyse_ciblée/Distribution%20de%20la%20CLV%20(boxplots).png)
 
 Le salaire et la CLV ne montre pas de différence significative entre les deux groupe. (Test Mann-Whitney U : p-valeur > 0.05)*.
 
 **4. Comparaison de la ditribution du nombre de vols et de l'ancienneté**
 
-(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Analyse_ciblée/Distribution du nombre de vols (boxplot).png)
-(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Analyse_ciblée/Distribution de l'ancienneté (boxplots).png)
+![Distribution du nombre de vols](./Images/Analyse_ciblée/Distribution%20du%20nombre%20de%20vols%20(boxplot).png)
+![Distribution de l'ancienneté](./Images/Analyse_ciblée/Distribution%20de%20l'ancienneté%20(boxplots).png)
 
 À l'inverse, on observe une différence significative entre les deux groupes *(Test Mann-Whitney U : p-valeur < 0.05)* sur : 
 
@@ -113,7 +113,7 @@ Le salaire et la CLV ne montre pas de différence significative entre les deux g
 
 **5. Analyses complémentaires**
 
-(Identifier les profils clients à fort potentiel (analyse statistique programme de fidélité)/Images/Analyse_ciblée/Heatmap de corrélation.png)
+![Heatmap corrélation](./Images/Analyse_ciblée/Heatmap%20de%20corrélation.png)
 
 Les corrélations montrent (Test de Spearman : p-valeur < 0.05 )  : 
 

@@ -114,7 +114,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/northwind-traders
 ### Compétences techniques :
 
 - Modélisation de données : schéma conceptuel, ERD.
-- Requêtes SQL exploratoires : aggrégations, filtres, KPIs.
+- Requêtes SQL exploratoires : agrégations, filtres, KPIs.
 - Requêtes SQL avancées : CTE, fonctions de fenêtrage
 - Gestion de projet via VSCode et Github
 

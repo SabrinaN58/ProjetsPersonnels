@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Analyse des désabonnés (churn)_PulseLink/Images/Logo_PulseLink.png" alt="Logo" width="200">
+  <img src="./Images/Logo_PulseLink.png" alt="Logo" width="200">
 </p>
 
 # 📡 Analyse des désabonés (churn) - PulseLink
@@ -85,27 +85,27 @@ Lien du dataset : https://mavenanalytics.io/data-playground/telecom-customer-chu
 
 **1. Dashoard 1 : Vue d'ensemble de la performance par statut**
 
-![Vue global par statut](Analyse des désabonnés (churn)_PulseLink/Images/Vue_globale_performance.png)
+![Vue global par statut](./Images/Vue_globale_performance.png)
 
 Les désabonnés représentent 27 % de la base client. Ils sont en grande majorité récent (ancienneté < 1 an), préférent le contrat "Month-to-Month" (sans engagement et se montrent peu intéressés par les offres proposées).
 
-![Kpi des actifs](Analyse des désabonnés (churn)_PulseLink/Images/Kpi_actifs.png)
-![Kpi des désabonnés](Analyse des désabonnés (churn)_PulseLink/Images/Kpi_churn.png)
+![Kpi des actifs](./Images/Kpi_actifs.png)
+![Kpi des désabonnés](./Images/Kpi_churn.png)
 
 En moyenne, Les désabonnés dépensent plus par mois que les actifs (74 $ vs 61 $)
 
 **2. Dashboards 2 : Analyse comportementale (services souscrits)**
 
-![Services souscrits des actifs](Analyse des désabonnés (churn)_PulseLink/Images/Analyse_comportementale_actifs.jpg)
-![Services souscrits des désabonnés](Analyse des désabonnés (churn)_PulseLink/Images/Analyse_comportementale_désabonnés.jpg)
+![Services souscrits des actifs](./Images/Analyse_comportementale_actifs.jpg)
+![Services souscrits des désabonnés](./Images/Analyse_comportementale_désabonnés.jpg)
 
 Plus de 90 % des désabonnés ont souscrit aux services de téléphonie et/ou internet. Leur consommation moyenne est légèrement plus élevée, que ce soit pour les données internet (22 Go vs 20 Go) ou les appels longue distance (+ 23 $).
 Même si le nombre moyen de services souscrits est identique entre les deux groupes, on remarque que les désabonnés sont beaucoup moins enclins à souscrire aux services d'assistance et de sécurité (Premium tech support, Online security and Backup, Device protection).
 
 **3. Dashboard 3 : Profil client**
 
-![Pofil des actifs](Analyse des désabonnés (churn)_PulseLink/Images/Profil_des_clients_actifs.jpg)
-![Pofil des désabonnés](Analyse des désabonnés (churn)_PulseLink/Images/Profil_des_clients_désabonnés.jpg)
+![Pofil des actifs](./Images/Profil_des_clients_actifs.jpg)
+![Pofil des désabonnés](./Images/Profil_des_clients_désabonnés.jpg)
 
 Les clients ayant 60 ans et plus représentent une part importante des désabonnés, suivis par la tranche 30-44 ans. 
 La majorité des désabonnés choisissent la facture électronique et le paiement par chèque.
@@ -122,7 +122,7 @@ Leur profil type :
 - une faible adoption des services de support/sécurité
 
 
-📄 [Voir la présentation PowerPoint (PDF)](Analyse des désabonnés (churn)_PulseLink/Présentation_PPT/Présentation_analyse_churn.pdf)
+📄![Voir la présentation PowerPoint (PDF)](./Présentation_PPT/Présentation_analyse_churn.pdf)
 
 
 
