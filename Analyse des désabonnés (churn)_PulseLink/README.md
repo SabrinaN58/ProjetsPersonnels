@@ -2,7 +2,7 @@
   <img src="./Images/Logo_PulseLink.png" alt="Logo" width="200">
 </p>
 
-# 📡 Analyse des désabonés (churn) - PulseLink
+# 📡 Analyse des désabonnés (churn) - PulseLink
 
 
 
@@ -87,7 +87,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/telecom-customer-chu
 
 ![Vue global par statut](./Images/Vue_globale_performance.png)
 
-Les désabonnés représentent 27 % de la base client. Ils sont en grande majorité récent (ancienneté < 1 an), préférent le contrat "Month-to-Month" (sans engagement et se montrent peu intéressés par les offres proposées).
+Les désabonnés représentent 27 % de la base client. Ils sont en grande majorité récent (ancienneté < 1 an), préférent le contrat "Month-to-Month" (sans engagement) et se montrent peu intéressés par les offres proposées.
 
 ![Kpi des actifs](./Images/Kpi_actifs.png)
 ![Kpi des désabonnés](./Images/Kpi_churn.png)
