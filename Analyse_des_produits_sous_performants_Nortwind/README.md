@@ -130,7 +130,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/northwind-traders
 
 ## 🟢 Annexes : quelques exemples de requêtes SQL 
 
-1. **Segmentation des produits par catégorie de performance**
+**1. Segmentation des produits par catégorie de performance**
 
 ```sql 
 WITH all_product AS (
@@ -176,7 +176,7 @@ CROSS JOIN threshold_q1 AS tq
 ```
 
 
-2. **Impact du prix et remise moyenne par catégorie de performance**
+**2. Impact du prix et remise moyenne par catégorie de performance**
 
 ```sql 
 WITH mean_discount_product AS (
@@ -210,7 +210,7 @@ JOIN total_per_performance AS tpp
 	ON mdp.performance_status = tpp.performance_status;
 ```
 
-3. **Fréquence des commandes contenant des produits sous-performants**
+**3. Fréquence des commandes contenant des produits sous-performants**
 
 ```sql
 WITH low_product_month AS (

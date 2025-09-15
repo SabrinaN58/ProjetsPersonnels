@@ -2,7 +2,7 @@
   <img src="./Images/Logo_PulseLink.png" alt="Logo" width="200">
 </p>
 
-# 📡 Analyse des désabonés (churn) - PulseLink
+# 📡 Analyse des désabonnés (churn) - PulseLink
 
 
 

@@ -77,7 +77,8 @@ Plus de 55 % des commandes sont livrées en retard, représentant une problémat
 ![Proportion des commandes selon le nombre d'articles commandés](./Images/Nombre%20d'articles%20commandés.png)
 
 Les commandes unitaires sont majoritairement impactées par les retards, représentant plus de 20 % des commandes retardées.  
-Les commandes supérieures à 1 article, moins nombreuses, sont beaucoup moins affectées. Cela suggère que la taille des commandes n'est pas un facteur déterminant des retards, tandis que la fréquence des commandes d'une certaine quantité semble représenter une des principales causes des retards
+Les commandes supérieures à 1 article, moins nombreuses, sont beaucoup moins affectées.  
+Cela suggère que la fréquence des commandes d'une certaine quantité semble représenter un des facteurs de retard, davantage que la taille des commandes.
 
 ![Top 5 des destination des commandes](./Images/Top%205%20des%20pays%20de%20livraison.png)
 

@@ -108,8 +108,8 @@ Le salaire et la CLV ne montre pas de différence significative entre les deux g
 
 À l'inverse, on observe une différence significative entre les deux groupes *(Test Mann-Whitney U : p-valeur < 0.05)* sur : 
 
-- Le nombre de vols réalisés, les clients engagés réalisent plus de vols que les désengagés
-- L'anciennété dans le programme, les clients engagés sont généralement plus anciens dans le programme
+- **Le nombre de vols réalisés** : les clients engagés réalisent plus de vols que les désengagés
+- **L'anciennété dans le programme** :  les clients engagés sont généralement plus anciens dans le programme
 
 **5. Analyses complémentaires**
 
@@ -136,7 +136,7 @@ Les corrélations montrent (Test de Spearman : p-valeur < 0.05 )  :
 - **Identifier les clients à fort potentiel** : inciter les clients non adhérents à rejoindre ou rester dans le programme (+ de 20 vols et une ancienneté > 2 ans).
 - **Acccompagner les nouveaux clients** : créer du contenu (email, campagne d'onboarding, offre d'activation) pour orienter et accompagner les nouveaux adhérents afin de se familiariser avec le programme.
 - **Retenir et relancer les adhérents** : réaliser des rappels, tenir informer les adhérents des nouveautés, réaliser des promotions ciblées pour un maintien du programme dans les esprits.
-- **Comprendre le comportement des désengagés (les désabonnés) : analyser le comportement des clients qui quittent le programme pour détecter les signaux de désengagement
+- **Comprendre le comportement des désabonnés** : analyser le comportement des clients qui quittent le programme pour détecter les signaux de désengagement
 - **Personnaliser les offres** : s'informer sur les préférences des adhérents (budgets, destinations préférées, services attendus) afin de personnaliser les offres 
 
 ![Rapport d'analyse](./Rapport/Rapport_d'analyse.pdf)
