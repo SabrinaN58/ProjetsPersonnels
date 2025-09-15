@@ -61,18 +61,18 @@ Lien du dataset : https://mavenanalytics.io/data-playground/airline-loyalty-prog
 
 ## 🟣 Méthodologie
 
-1. **Nettoyage et préparation des données** 
+**1. Nettoyage et préparation des données** 
 
 - Vérification des types de données et des doublons 
 - Imputation des valeurs manquantes (salaires)
 - Création de nouvelles variables : ancienneté, date (mois + années)
 
-2. **Analyse exploratoire**
+**2. Analyse exploratoire**
 
 - **Visualisation des distributions** : comparer la distibution des variables numériques (salaire, ancienneté, CLV, nombre de vols) par statut d'engagement
 - **Répartition par statut d'engagement** : visualiser la répartition des statuts d'engagement par facteur sociodémographique (genre, statut marital, niveau d'études, province)
 
-3. **Tests statistiques**
+**3. Tests statistiques**
 
 - **Chi²** : pour analyser le lien entre les  variables catégorielles (genre, niveau d'étude, statut marital, province) et le statut d'engagement.
 - **Mann-Whitney U** : pour comparer la distribution des variables numériques (salaire, ancienneté, valeur vie client, nombre de vols) entre deux groupes (engagés vs désengagés).
@@ -139,7 +139,7 @@ Les corrélations montrent (Test de Spearman : p-valeur < 0.05 )  :
 - **Comprendre le comportement des désengagés (les désabonnés) : analyser le comportement des clients qui quittent le programme pour détecter les signaux de désengagement
 - **Personnaliser les offres** : s'informer sur les préférences des adhérents (budgets, destinations préférées, services attendus) afin de personnaliser les offres 
 
-
+![Rapport d'analyse](./Rapport/Rapport_d'analyse.pdf)
 
 ## ⚪ Technologies utilisées
 

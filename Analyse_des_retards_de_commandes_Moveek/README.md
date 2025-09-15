@@ -12,7 +12,7 @@ Moveek est une entreprise spécialisée dans la vente de vêtements et d'équipe
 
 Suite à une recrudescence ces derniers mois des réclamations liées aux commandes retardées, l'entreprise souhaite réaliser une analyse pour identifier les principales causes.
 
-Cette analyse permettra de définir des actions correctives pour améliorer la chaîne de traitement des commandes et la relation client.
+Cette analyse permettra de définir des actions correctives pour améliorer la chaîne opérationnelle et la relation client.
 
 
 
@@ -49,14 +49,14 @@ Lien du dataset : https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supp
 
 ## 🟣 Méthodologie
 
-**1. Préparation des données** :
+**1. Préparation des données** 
 
 - La vérification des valeurs manquantes et dupliquées.
 - L’harmonisation des noms de variables.
 - Correction des incohérences dans les données (variable "benefit_per_order").
 - La création de variables supplémentaires pertinentes pour l’analyse (délais de traitement, écart de livraison, etc.).
 
-**2. **Analyse exploratoire**
+**2. Analyse exploratoire**
 
 - Répartition des commandes par statut de livraison.
 - Impact des différentes variables (type de produit, client..).
@@ -82,12 +82,12 @@ Les commandes supérieures à 1 article, moins nombreuses, sont beaucoup moins a
 ![Top 5 des destination des commandes](./Images/Top%205%20des%20pays%20de%20livraison.png)
 
 Les États-unis sont la principale destination des commandes totales et retardées, suivi par la France, le Mexique, l'Australie et l'Allemagne.  
-La distance ne semble pas représenter un facteur de retard (Points de vente situés aux US), cela suggère de nouveau une possible relation entre le volume de commande et la fréquence des retards.
+La distance ne semble pas représenter un facteur de retard (Points de vente situés aux USA), cela suggère de nouveau une possible relation entre le volume de commandes et la fréquence des retards.
 
 ![Proportion des commandes par type de client](./Images/Commandes%20selon%20type%20client.png)
 
 Les Consumer (Particuliers) représentent la clientèle majoritaire de Moveek (+ 50 % des commandes réalisées).  
-Cette clientèle est également la plus touchée par les retards de livraison (+ 50 % de commandes retardées). Ce qui suggère également une relation existante entre le volume de commande et les retards de livraison.
+Cette clientèle est également la plus touchée par les retards de livraison (+ 50 % de commandes retardées). Ce qui suggère également une relation existante entre le volume de commandes et les retards de livraison.
 
 Pour conclure, les retards semblent davantage liés au volume de commandes passées qu'à la taille, la distance ou le type de client.
 
@@ -104,7 +104,7 @@ Pour conclure, les retards semblent davantage liés au volume de commandes pass�
 
 - Analyser plus finement la chaîne opérationelle des commandes permettant d'identifier la ou les causes réelles de retard.
 
-### Actions à envisager : 
+### Actions à envisager 
 
 - Renforcer l’organisation des équipes afin d’assurer un traitement plus efficace.
 - Réviser les délais de livraison en fonction de l’historique et des performances passées pour garantir plus de fiabilité.
@@ -113,7 +113,7 @@ Pour conclure, les retards semblent davantage liés au volume de commandes pass�
 - Envisager un système de compensation (ex. remise sur une prochaine commande) en cas de retard, pour renforcer la fidélisation client.
 
 
-
+![Rapport d'analyse (PDF)](./Rapport/Rapport_Analyse_Moveek.pdf)
 
 ## ⚪ Technologies utilisées
 
@@ -125,14 +125,14 @@ Pour conclure, les retards semblent davantage liés au volume de commandes pass�
 
 ## 🟣 Compétences développées
 
-### Compétences techniques :
+### Compétences techniques
 
 - Nettoyage et préparation des données
 - Analyse exploratoire et descriptives
 - Python (Jupyter Notebook)
 - Gestion de projet via VSCode et Github
 
-### Compétences transversales : 
+### Compétences transversales 
 
 - Esprit critique et de synthèse
 - Interprétation des résultats via les graphiques générés

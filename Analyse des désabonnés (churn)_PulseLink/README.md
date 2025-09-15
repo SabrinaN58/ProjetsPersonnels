@@ -45,27 +45,27 @@ Données utilisées concernent :
 
 ## 🔵 Sources de données
 
-Les données utilisées dans ce projet proviennent du site : [Mayven Analytics](https://mavenanalytics.io/)
+Les données utilisées dans ce projet proviennent du site : [Mayven Analytics](https://mavenanalytics.io/)  
 Lien du dataset : https://mavenanalytics.io/data-playground/telecom-customer-churn
 
 
 
 ## 🟣 Méthodologie
 
-1. **Nettoyage et préparation des données** :
+**1. Nettoyage et préparation des données**
 
 - Transformation des données sous Power Query : 
  - vérification des valeurs dupliquées.
  - correction des données incohérentes (dépenses mensuelles négatives).
  - création de colonnes personnalisées et conditionelles (catégorie des services, tranches d'âge)
 
-2. **Modélisation des données**
+**2. Modélisation des données**
 
 - Créer des tables de dimensions et de fait
 - Établir les relations entre les tables
 - Création d'un modèle en étoile
 
-3. **Création de KPIs**
+**3. Création de KPIs**
 
 - Revenu total
 - Revenu moyen par client
@@ -74,7 +74,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/telecom-customer-chu
 - Moyenne de services soucrits
 - Consommation moyenne des données (Go)
 
-2. **Visualisations**
+**2. Visualisations**
 
 - Dashboards interactifs et dynamiques avec filtres par statut, ancienneté, contrat, etc.
 - Création d'une table de scoring (score de risque client) pour identifier les clients les plus à risque
@@ -87,19 +87,19 @@ Lien du dataset : https://mavenanalytics.io/data-playground/telecom-customer-chu
 
 ![Vue global par statut](./Images/Vue_globale_performance.png)
 
-Les désabonnés représentent 27 % de la base client. Ils sont en grande majorité récent (ancienneté < 1 an), préférent le contrat "Month-to-Month" (sans engagement et se montrent peu intéressés par les offres proposées).
+Les désabonnés représentent 27 % de la base client. Ils sont en grande majorité récent (ancienneté < 1 an), préfèrent le contrat "Month-to-Month" (sans engagement) et se montrent peu intéressés par les offres proposées.
 
 ![Kpi des actifs](./Images/Kpi_actifs.png)
 ![Kpi des désabonnés](./Images/Kpi_churn.png)
 
-En moyenne, Les désabonnés dépensent plus par mois que les actifs (74 $ vs 61 $)
+En moyenne, Les désabonnés dépensent plus par mois que les actifs (74 vs 61 dollars)
 
 **2. Dashboards 2 : Analyse comportementale (services souscrits)**
 
 ![Services souscrits des actifs](./Images/Analyse_comportementale_actifs.jpg)
 ![Services souscrits des désabonnés](./Images/Analyse_comportementale_désabonnés.jpg)
 
-Plus de 90 % des désabonnés ont souscrit aux services de téléphonie et/ou internet. Leur consommation moyenne est légèrement plus élevée, que ce soit pour les données internet (22 Go vs 20 Go) ou les appels longue distance (+ 23 $).
+Plus de 90 % des désabonnés ont souscrit aux services de téléphonie et/ou internet. Leur consommation moyenne est légèrement plus élevée, que ce soit pour les données internet (22 Go vs 20 Go) ou les appels longue distance (+ 23 $).  
 Même si le nombre moyen de services souscrits est identique entre les deux groupes, on remarque que les désabonnés sont beaucoup moins enclins à souscrire aux services d'assistance et de sécurité (Premium tech support, Online security and Backup, Device protection).
 
 **3. Dashboard 3 : Profil client**
@@ -107,8 +107,8 @@ Même si le nombre moyen de services souscrits est identique entre les deux grou
 ![Pofil des actifs](./Images/Profil_des_clients_actifs.jpg)
 ![Pofil des désabonnés](./Images/Profil_des_clients_désabonnés.jpg)
 
-Les clients ayant 60 ans et plus représentent une part importante des désabonnés, suivis par la tranche 30-44 ans. 
-La majorité des désabonnés choisissent la facture électronique et le paiement par chèque.
+Les clients ayant 60 ans et plus représentent une part importante des désabonnés, suivis par la tranche 30-44 ans.   
+La majorité des désabonnés choisissent la facture électronique et le paiement par chèque.  
 Enfin, plus des 40 % déclarent s'être tournés vers la concurrence, attirés par des offres plus compétitives.
 
 **Conclusion**
@@ -122,10 +122,6 @@ Leur profil type :
 - une faible adoption des services de support/sécurité
 
 
-📄![Voir la présentation PowerPoint (PDF)](./Présentation_PPT/Présentation_analyse_churn.pdf)
-
-
-
 ## 🟡 Recommendations
 
 - Réviser les offres commerciale pour qu'elles soient mieux alignées avec celles de la concurrence.
@@ -133,6 +129,8 @@ Leur profil type :
 - Proposer des offres groupées incluant des services de support/sécurité pour inciter à leur adoption
 - Surveiller les clients à risque via la table de scoring afin d'anticiper le churn et cibler les actions de rétention.
 
+
+![Présentation PowerPoint (PDF)](./Présentation_PPT/Présentation_analyse_churn.pdf)
 
 
 ## ⚪ Technologies/outils utilisés
@@ -161,3 +159,5 @@ Leur profil type :
 - Communication claire des résultats
 - Esprit critique dans l'interprétation des données
 - Organisation et rigueur dans la structuration du projet
+
+

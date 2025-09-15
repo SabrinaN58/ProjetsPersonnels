@@ -35,11 +35,11 @@ Les principaux objectifs de cette analyse sont :
 
 Les données utilisées concernent :
 
-- Les clients (customers) : nom de l'entreprise, nom du représentant et sa profession, ville et pays de résidence.
-- Les salariés (employees) : identité des salariés (nom + prénom), profession, ville et pays d'activité, responsable rattaché.
-- Les commandes (orders) : date de commande et l'employé ayant effectué la transaction.
-- Les commandes détaillées : prix unitaire, quantité et remise appliquée par produit et par commande.
-- Les produits : nom et description du produit, conditionnement, nouveau prix appliqué et sa catégorie.
+- **Les clients (customers)** : nom de l'entreprise, nom du représentant et sa profession, ville et pays de résidence.
+- **Les salariés (employees)** : identité des salariés (nom + prénom), profession, ville et pays d'activité, responsable rattaché.
+- **Les commandes (orders)** : date de commande et l'employé ayant effectué la transaction.
+- **Les commandes détaillées** : prix unitaire, quantité et remise appliquée par produit et par commande.
+- **Les produits** : nom et description du produit, conditionnement, nouveau prix appliqué et sa catégorie.
  
 
 
@@ -99,6 +99,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/northwind-traders
 - Réaliser des enquêtes clients ayant achetés ces produits pour comprendre le manque d'intérêt
 - Améliorer l'argumentaire de vente des représentants commerciaux pour mieux valoriser les produits.
 
+![Rapport d'analyse (PDF)](./Rapport/Rapport_analyse.pdf)
 
 
 ## ⚪ Technologies utilisées
