@@ -18,7 +18,7 @@ Cette analyse permettra de définir le profil des clients les plus enclins à se
 
 ## 🟢 Objectifs
 
-L'objectif de ce projet est de construire un rapport composé de plusieurs dashboards interactifs pour :
+L'objectif de ce projet est de construire un rapport interactif composé de plusieurs dashboards pour :
 
 - Suivre la performance globale de l'entreprise en fonction des statuts (actifs/inactifs).
 - Analyser la souscription des services proposés et identifier ceux associés à un taux de désabonnement plus élevé.
@@ -71,7 +71,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/telecom-customer-chu
 - Revenu moyen par client
 - Charges mensuelles 
 - Dépense moyenne appels longue distance
-- Moyenne de services soucrits
+- Moyenne des services soucrits
 - Consommation moyenne des données (Go)
 
 **2. Visualisations**
