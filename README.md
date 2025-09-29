@@ -25,7 +25,7 @@
 **Résultats** : Identification d'une forte relation entre la fréquence des commandes et les retards
 
 ## 👥 Identifier les profils à fort potentiel - Canada Flight (étude statistique)
-**Objectif** : Analyser le profil des adhérents selon leur niveau d'activité (nombre de vols réalisés)
+**Objectif** : Analyser les caractéristiques des adhérents selon leur niveau d'activité (nombre de vols réalisés)
 
 **Compétences** :
 - **Python** : Nettoyage et préparation des données - Analyse exploratoire - Tests statistiques
