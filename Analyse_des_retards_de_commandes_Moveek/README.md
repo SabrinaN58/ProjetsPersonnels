@@ -10,9 +10,9 @@
 
 Moveek est une entreprise spécialisée dans la vente de vêtements et d'équipements sportifs. 
 
-Suite à une recrudescence ces derniers mois des réclamations liées aux commandes retardées, l'entreprise souhaite réaliser une analyse pour identifier les principales causes.
+L'entreprise connait depuis quelques mois une recrudescence des réclamations liées aux commandes retardées, 55% des commandes enregistrent un retard de livraison. Cette situation impacte directement la satisfaction client et les coûts opérationnels (réclamations, retours).   
 
-Cette analyse permettra de définir des actions correctives pour améliorer la chaîne opérationnelle et la relation client.
+L'entreprise souhaite réaliser une analyse pour identifier les principales causes. Cette analyse permettra de définir des actions correctives pour améliorer la chaîne opérationnelle et la fiabilité des expéditions.
 
 
 
@@ -20,9 +20,9 @@ Cette analyse permettra de définir des actions correctives pour améliorer la c
 
 Les principaux objectifs de cette analyse sont :
 
-- Identifier les catégories les plus affectées par les retards (produit, types de clients, pays, méthodes de paiement, etc.)
-- Analyser l'impact de certaines variables (Types de livraison, volume de commande, distance) sur les délais de livraison
-- Fournir des recommandations pour optimiser le traitement des commandes et améliorer la satisfaction client
+- **Analyse de la performance** :  Identifier les segments les plus affectés par les retards (produit, types de clients, pays, méthodes de paiement, etc.)
+- **Analyse des potentiels facteurs** : Mesurer l'impact des variables opérationnelles (Types de livraison, volume de commande, distance) sur les délais d'expédition
+- **Recommandations** : Formuler des recommandations pour optimiser la chaîne opérationnelle et optimiser le taux de service
 
 
 
@@ -66,7 +66,7 @@ Lien du dataset : https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supp
 
 ## 🟠 Quelques Résultats illustrés
 
-![Évolution des commandes et des retards](./Images/Évolution%20des%20commandes%20totales%20et%20retardées.png)
+![Évolution des commandes reçues et des retards d'expédition](./Images/Évolution%20des%20commandes%20totales%20et%20retardées.png)
 
 Le nombre de commandes est assez stable avec un léger pic à partir de fin 2017. L'évolution des retards est proportionnelle au nombre de commandes reçues.
 
@@ -80,7 +80,7 @@ Les commandes unitaires sont majoritairement impactées par les retards, représ
 Les commandes supérieures à 1 article, moins nombreuses, sont beaucoup moins affectées.  
 Cela suggère que la fréquence des commandes d'une certaine quantité semble représenter un des facteurs de retard, davantage que la taille des commandes.
 
-![Top 5 des destination des commandes](./Images/Top%205%20des%20pays%20de%20livraison.png)
+![Top 5 des destinations des commandes](./Images/Top%205%20des%20pays%20de%20livraison.png)
 
 Les États-unis sont la principale destination des commandes totales et retardées, suivi par la France, le Mexique, l'Australie et l'Allemagne.  
 La distance ne semble pas représenter un facteur de retard (Points de vente situés aux USA), cela suggère de nouveau une possible relation entre le volume de commandes et la fréquence des retards.
@@ -90,7 +90,8 @@ La distance ne semble pas représenter un facteur de retard (Points de vente sit
 Les Consumer (Particuliers) représentent la clientèle majoritaire de Moveek (+ 50 % des commandes réalisées).  
 Cette clientèle est également la plus touchée par les retards de livraison (+ 50 % de commandes retardées). Ce qui suggère également une relation existante entre le volume de commandes et les retards de livraison.
 
-Pour conclure, les retards semblent davantage liés au volume de commandes passées qu'à la taille, la distance ou le type de client.
+Pour conclure, l'analyse met en évidence que la distance n'est pas un facteur potentiel. Le retard est davantage lié au volume de commandes reçues. Il s'agirait plus d'une problématique du traitement en entrepôt que d'un problème de livraison (transport).
+
 
 
 

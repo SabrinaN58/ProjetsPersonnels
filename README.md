@@ -17,6 +17,10 @@
 **Résultats** : Identification et analyse des spécificités des produits sous-performants afin d'optimiser la stratégie commerciale 
 
 ## ⏱️ Analyse des retards des commandes - MOVEEK
+
+**Description** :
+Analyse d'un jeu de données de plus de 65 000 commandes pour identifier les leviers d'optimisation de la chaîne opérationnelle
+
 **Objectif** : Analyser les causes des commandes retardés afin d’optimiser la chaîne opérationnelle   
 
 **Compétences** :
