@@ -10,7 +10,7 @@
 
 PulseLink est un opérateur de télécommunications américain qui propose des services de téléphonie et d'accès internet. L'entreprise propose des abonnements variés allant de la ligne téléphonique simple à multiple, divers connexions internet ainsi que des services numériques complémentaires.
 
-Dans un secteur de plus en plus concurrentiel, PulseLink souhaite consolider sa base client existante car fidéliser un client coûte moins cher que d'en recruter un nouveau, et les clients churnés (les désanonnés) représentent une source d'information précieuse pour identifier les failles des offres et des services.
+Dans un secteur de plus en plus concurrentiel, PulseLink souhaite consolider sa base client existante car fidéliser un client coûte moins cher que d'en recruter un nouveau, et les clients churnés (les désabonnés) représentent une source d'information précieuse pour identifier les failles des offres et des services.
 
 Cette analyse permettra de définir le profil des clients les plus enclins à se désabonner, et quels services, offres, contrats ont une influence significative sur le désabonnement.
 
@@ -83,29 +83,40 @@ Lien du dataset : https://mavenanalytics.io/data-playground/telecom-customer-chu
 
 ## 🟠 Résultats
 
-**1. Dashoard 1 : Vue d'ensemble de la performance par statut**
+**1. Dashboard 1 : Vue d'ensemble de la performance par statut**
 
 ![Vue global par statut](./Images/Vue_globale_performance.png)
 
-Les désabonnés représentent 27 % de la base client. Ils sont en grande majorité récent (ancienneté < 1 an), préfèrent le contrat "Month-to-Month" (sans engagement) et se montrent peu intéressés par les offres proposées.
+Les désabonnés représentent 27 % de la base client. Ils sont en grande majorité récent (ancienneté < 1 an), préfèrent le contrat "Month-to-Month" (sans engagement) et se montrent peu intéressés par les offres proposées.  
 
-![Kpi des actifs](./Images/Kpi_actifs.png)
-![Kpi des désabonnés](./Images/Kpi_churn.png)
+
+KPIs des actifs  
+![KPIs des actifs](./Images/Kpi_actifs.png)
+
+
+KPIs des désabonnés  
+![KPIs des désabonnés](./Images/Kpi_churn.png)
 
 En moyenne, Les désabonnés dépensent plus par mois que les actifs (74 vs 61 dollars)
 
-**2. Dashboards 2 : Analyse comportementale (services souscrits)**
+**2. Dashboard 2 : Analyse comportementale (services souscrits)**
 
-![Services souscrits des actifs](./Images/Analyse_comportementale_actifs.jpg)
-![Services souscrits des désabonnés](./Images/Analyse_comportementale_désabonnés.jpg)
+Analyse comportementale des actifs  
+![Services souscrits des actifs](./Images/Analyse_comportementale_actifs.jpg)  
+  
+Analyse comportementale des désabonnés (Churn)  
+![Services souscrits des désabonnés](./Images/Analyse_comportementale_désabonnés.jpg)    
 
 Plus de 90 % des désabonnés ont souscrit aux services de téléphonie et/ou internet. Leur consommation moyenne est légèrement plus élevée, que ce soit pour les données internet (22 Go vs 20 Go) ou les appels longue distance (+ 23 $).  
 Même si le nombre moyen de services souscrits est identique entre les deux groupes, on remarque que les désabonnés sont beaucoup moins enclins à souscrire aux services d'assistance et de sécurité (Premium tech support, Online security and Backup, Device protection).
 
-**3. Dashboard 3 : Profil client**
+**3. Dashboard 3 : Profil client (Actifs/désabonnés)**
 
-![Pofil des actifs](./Images/Profil_des_clients_actifs.jpg)
-![Pofil des désabonnés](./Images/Profil_des_clients_désabonnés.jpg)
+Profil des actifs
+![Profil des actifs](./Images/Profil_des_clients_actifs.jpg)  
+
+Profil des désabonnés
+![Profil des désabonnés](./Images/Profil_des_clients_désabonnés.jpg)  
 
 Les clients ayant 60 ans et plus représentent une part importante des désabonnés, suivis par la tranche 30-44 ans.   
 La majorité des désabonnés choisissent la facture électronique et le paiement par chèque.  

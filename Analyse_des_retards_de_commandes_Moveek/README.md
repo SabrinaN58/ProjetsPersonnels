@@ -99,6 +99,7 @@ Pour conclure, l'analyse met en évidence que la distance n'est pas un facteur p
 
 - Absence de données sur la satisfaction client : difficile de mesurer l’impact réel des retards sur la satisfaction client.
 - Peu d’information sur les causes internes des retards : Les données sont insuffisantes et ne permettent pas d’identifier la ou les causes réelles du problème (réception des commandes, traitement des commandes, préparation des commandes, problèmes logistiques).
+- Pas de données concernant la livraison du dernier kilomètre 
 
 
 
@@ -113,6 +114,7 @@ Pour conclure, l'analyse met en évidence que la distance n'est pas un facteur p
 - Optimiser la gestion des commandes, en priorisant notamment les catégories les plus populaires pour améliorer la disponibilité et la réactivité.
 - Mettre en place une application prédictive capable d’anticiper les retards de livraison, afin de mieux planifier et informer les clients.
 - Envisager un système de compensation (ex. remise sur une prochaine commande) en cas de retard, pour renforcer la fidélisation client.
+
 
 
 ![Rapport d'analyse (PDF)](./Rapport/Rapport_Analyse_Moveek.pdf)

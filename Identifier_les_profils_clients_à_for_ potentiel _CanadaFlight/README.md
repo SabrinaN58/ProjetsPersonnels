@@ -86,7 +86,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/airline-loyalty-prog
 
 ![Répartition des statuts d'engagement](./Images/Analyse%20exploratoire/Répartition%20des%20clients%20par%20statut.png)
 
-La majorité des clients (82 %) ont effectué plus de 20 vols sur la période étudiée, tandis qu'une minorité est désengagés avec moins de 20 vols
+La majorité des clients (82 %) ont effectué plus de 20 vols sur la période étudiée, tandis qu'une minorité est désengagée avec moins de 20 vols
 
 **2. Analyse des facteurs sociodémographiques**
 
@@ -121,7 +121,9 @@ Les corrélations montrent (Test de Spearman : p-valeur < 0.05 )  :
 - une corrélation faible mais significative entre le nombre de vols et l'ancienneté. *(Coefficient de Spearman : 0.37)*
 - une corrélation très faible mais significative entre le salaire et CLV (Coefficient de Spearman : 0.02)
 
+**Conclusion**
 
+Cette analyse statistique démontre que la fidélité clients de Canada Flight est principalement liée à l'ancienneté et à la fréquence de vols. À l'inverse, les critères sociodémographiques (niveau d'étude, lieu de résidence et statut marital) n'ont aucune influence sur l'engagement client. La compagnie doit donc se concentrer davantage sur les clients réguliers non-adhérents et l'onboarding des nouveaux membres pour maximiser la rétention
 
 ## 🔴 Limites de l'analyse
 

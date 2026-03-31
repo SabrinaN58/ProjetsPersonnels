@@ -10,7 +10,7 @@
 
 Northwind est une entreprise B2B spécialisée dans la vente de produits alimentaires à l’échelle internationale. Elle est organisée en deux équipes, l'une située aux États-Unis et l'autre à Londres. Son catalogue comprend 77 produits dont 8 ne sont plus commercialisés.
 
-À la suite d'une hausse des prix fournisseurs, la direction souhaite identifier et analyser les produits à faible performance (en quantité vendue et chiffre d'affaires).
+À la suite d'une hausse des prix fournisseurs, la direction souhaite identifier et analyser les produits à faible rotation et chiffre d'affaire afin d'identifier ceux susceptible d'être impactés par cette hausse.
 
 Plutôt que de supprimer de nouvelles références, cette analyse permettra de proposer des ajustements stratégiques afin de mieux valoriser ces produits et accroître leurs ventes .
 
@@ -20,10 +20,10 @@ Plutôt que de supprimer de nouvelles références, cette analyse permettra de p
 
 Les principaux objectifs de cette analyse sont :
 
-- Identifier les produits sous-performants en termes de quantité vendue et chiffre d'afaires.
+- Identifier les produits à faible rotation et chiffre d'afaires.
 - Analyser les raisons possibles de cette sous-performance (prix, remise, saisonnalité, etc.).
 - Évaluer l'impact de la hausse tarifaire sur les différentes catégories de produits.
-- Fournir des recommandations concrètes sur les actions à envisager pour valoriser les produits faibles en performance.
+- Fournir des recommandations concrètes sur les actions à envisager pour valoriser les produits à faible rotation.
 
 
 
@@ -69,7 +69,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/northwind-traders
 
 **3. Analyse avancée**
 
-- Identification des produits sous-performants en termes de quantité vendue et chiffre d'affaires (10 % des produits les plus faibles).
+- Identification des produits à faible rotation et chiffre d'affaires (10 % des produits les plus faibles).
 - Segmentation des produits selon leur performance: 
  - Low_quantity (faible volume), dont les ventes sont inférieures à 296 unités,
  - Low_revenue (faible chiffre d'affaires), dont le chiffre d'affaires est inférieur à 3200 dollars
@@ -94,7 +94,7 @@ Lien du dataset : https://mavenanalytics.io/data-playground/northwind-traders
 ## 🟡 Recommendations
 
 - Cibler des clients/prospects spécialisés ou plus opportuns selon le type de produit.
-- Réaliser des campagnes promotionnelles et des offres groupées pour une meilleure visibilité et accroissement des ventes, notamment   lors d'événements spéciaux
+- Réaliser des campagnes promotionnelles et des offres groupées pour une meilleure visibilité et accroissement des ventes, notamment lors d'événements spéciaux
 - Adapter les prix et les remises sur certains produits pour plus d'attractivité
 - Réaliser des enquêtes clients ayant achetés ces produits pour comprendre le manque d'intérêt
 - Améliorer l'argumentaire de vente des représentants commerciaux pour mieux valoriser les produits.
